@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico');
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato';
+	font-size: 1.75em;
+	background: #f7f4d6; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left top, #f7f4d6, #add5e2); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #f7f4d6, #add5e2); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #f7f4d6, #add5e2); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #f7f4d6, #add5e2); /* Standard syntax */
+  	height: 100%;
+  	margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.white-text {
+	color: white;
+}
+
+.cursive-text {
+	font-family: 'Pacifico', cursive;
+	font-size: 1.3em;
+}
+
+.cursive-text-mobile {
+	font-family: 'Pacifico', cursive;
+	font-size: 1em;
+	padding-top: 10px;
+}
+
+.label-sized-text {
+	font-family: sans-serif;
+	font-size: 0.95em;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.lime-green-text {
+	color: #C7DD34;
+}
+
+.btn-white {
+  	background-color: #FFFFFF;
+  	border-color: #FFFFFF;
+  	outline: none !important;
+  	box-shadow:none;
+}
+
+.btn-white:hover, 
+.btn-white:focus, 
+.btn-white:active, 
+.btn-white.active, 
+.open .dropdown-toggle.btn-white { 
+	border-color: #FFFFFF;
+	box-shadow:none;
+}
+
+.padding-all-sides-box {
+	padding: 5px 5px 5px 5px;
+}
+
+.height-on-block {
+	height: 100px;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.position-weather-icon {
+	bottom: -15px;left: 10px;
+}
+
+.position-city-country-text {
+	bottom: 20px;left: 120px;
+}
+
+.position-temperature-text {
+	bottom: 40px;left: 145px;
+}
+
+.font-size-temperature {
+	font-size: 1.5em;
+}
+
+.position-celsius-icon {
+	padding-bottom: 15px;
+}
+
+.position-remove-icon {
+	text-align: right;
+}
+
+.font-size-remove-icon {
+	font-size: 1.2em;
+}
+
+.padding-remove-icon {
+	padding: 5px 5px 0 0;
+}
+
+.position-weather-icon-mobile {
+	bottom: 20px;left: 10px;
+}
+
+.position-city-country-text-mobile {
+	bottom: 10px;left: 15px;
+}
+
+.position-temperature-text-mobile {
+	bottom: 10px;left: 160px;
+}
+
+.font-size-temperature-mobile {
+	font-size: 3.5em;
+}
+
+.position-celsius-icon-mobile {
+	padding-bottom: 45px;
+}
+
+.position-location-text {
+	padding: 6px 0 0 15px;
+}
+
+.position-textfield {
+	padding: 0 0 1px 7px;
+}
+
+.padding-top-mobile {
+	padding-top: 105px;
+}
+
+.padding-vinnovera-window {
+	padding: 40px 0 60px 0;
+}
+
+.padding-vinnovera-mobile {
+	padding:30px 0 20px 0;
+}
+
+.navbar-design {
+	background: #ebf3f0;
+	border: #ffffff 1px;
+	border-style: solid;
+}
+
+.jumbotron-design {
+	background: rgba(255,255,255,0.6);
+	border: #ffffff 1px;
+	border-style: solid;
+}
+
+.text-color-red {
+	color: red;
+}
+
+.glyphicon-remove-sign:hover,
+#search_window:hover,
+#search_mobile:hover { 
+    cursor: pointer;
+}
