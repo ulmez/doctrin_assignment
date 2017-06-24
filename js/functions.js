@@ -79,7 +79,7 @@ function listBoxes() {
 
 	// Loops out all boxes of city country temperature
 	// for both window and mobile view
-	for (var k = 0; k < arrsearchList.length; k++) {
+	for (var k = arrsearchList.length - 1; k >= 0; k--) {
 
 		// This block checks if the icon are available for the weather type
 		var checkCodeNotAvailable = true;
